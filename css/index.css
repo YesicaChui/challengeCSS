@@ -234,6 +234,12 @@ img {
   display: flex;
   gap: 3rem;
 }
+
+.testimonial_sub{
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-regular);
+
+}
 /* .testimonial--quote {
   position: relative;
   background-color: red;
