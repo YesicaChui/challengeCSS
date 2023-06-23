@@ -11,9 +11,9 @@
  a{
   text-decoration: none;
  } */
-:root {
+:root, html[data-theme="oscuro"] { /* valor por defecto*/
 
-color-scheme: light dark;
+color-scheme: claro oscuro;/* temas aceptados */
   /* Fonts */
   --font-primary: 'Raleway', sans-serif;
   --font-secondary: 'Open Sans', sans-serif;
@@ -34,7 +34,7 @@ color-scheme: light dark;
 }
  
 
-html[data-theme="light"]{
+html[data-theme="claro"]{
   --primary-dark-blue-into: blue;
 }
 
